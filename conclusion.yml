@@ -1,0 +1,18 @@
+---
+- hosts: localhost
+  tasks:
+    - name: The Basics
+      debug:
+        msg: "Mastered the basics!"
+    - name: Essential Syntax
+      debug:
+        msg: "Mastered essential syntax!"
+    - name: Advanced Syntax
+      debug:
+        msg: "Mastered advanced syntax!"
+    - name: Hands on Labs
+      debug:
+        msg: "Completed hands on labs!"
+    - name: Next Steps
+      debug:
+        msg: "More Ansible? Linux? DevOps?"
